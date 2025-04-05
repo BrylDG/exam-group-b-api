@@ -4,8 +4,8 @@ const router = Router();
 
 // Sample exam data
 const exams = [
-  { id: 1, name: 'INTPROG Exam', date: '2025-03-25' },
-  { id: 2, name: 'FRETRNDS Exam', date: '2025-03-26' }
+  { id: 1, name: 'INTPROG Exam', date: '2025-04-05' },
+  { id: 2, name: 'FRETRNDS Exam', date: '2025-04-10' }
 ];
 
 // Helper function to find an exam by ID
