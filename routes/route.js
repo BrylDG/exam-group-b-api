@@ -22,11 +22,7 @@ router.get('/exams', (req, res) => {
 });
 
 
-<<<<<<< HEAD
-// Update an exam : Simulating Conflict
-=======
-// Update an exam
->>>>>>> 07923671dd81380ef3cb77068b99a062da62af94
+// Update an exam : Simulating conflict
 router.put('/exams/:id', (req, res) => {
     const examId = parseInt(req.params.id);
     const exam = findExamById(examId);
